@@ -41,7 +41,8 @@ img {
 /*================header========================*/
 .header {
     border-bottom: 1px solid #e7e9fc;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
 }
 
 .nav-link-logo-blue {
@@ -54,9 +55,6 @@ img {
     text-transform: uppercase;
     margin-right: 76px;
     padding: 24px 0;
-
-    position: relative;
-    color: #404bbf;
 }
 
 .nav-link-logo {
@@ -104,7 +102,7 @@ span {
     color: #404bbf;
 }
 
-..nav-link::after {
+.nav-link::after {
     content: '';
     position: absolute;
     left: 0;
@@ -112,7 +110,6 @@ span {
     height: 4px; 
     background-color: #404bbf;
     border-radius: 2px;
-
 }
 
 .address {
@@ -301,6 +298,24 @@ color: #404bbf;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+}
+
+.soc-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.soc-item {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border: 2px dashed #2a2a2a;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    fill: var(--IRIS, #4D5AE5);
 }
 
 /**=======================================*/
