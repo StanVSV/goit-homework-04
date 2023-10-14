@@ -213,6 +213,10 @@ color: #404bbf;
     overflow: hidden;
 }
 
+.features-icon-item {
+}
+
+
 .container-icon {
     display: flex;
     align-items: center;
@@ -224,23 +228,8 @@ color: #404bbf;
     border: 1px solid var(--LIGHT-SLATE, #8E8F99);
     width: 264px;
     height: 112px;
-}
-
-/*.icon-list {
-    display: flex;
-    justify-content: center;
     gap: 24px;
-    margin-bottom: 8px;
 }
-
-.features-icon-item{
-    block-size: boarder-box;
-    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
-    border-radius: 4px;
-    background: var(--CLOUD, #F4F4FD);
-    width: 264px;
-    height: 112px;
-}*/
 
 
 .features-list {
