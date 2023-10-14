@@ -213,22 +213,16 @@ color: #404bbf;
     overflow: hidden;
 }
 
-.features-icon-item {
-}
-
-
 .container-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 112px;
     background-color: #f4f4fd;
     border-radius: 4px;
     margin-bottom: 8px;
     border: 1px solid var(--LIGHT-SLATE, #8E8F99);
     width: 264px;
     height: 112px;
-    gap: 24px;
 }
 
 
