@@ -213,7 +213,17 @@ color: #404bbf;
     overflow: hidden;
 }
 
-.icon-list {
+.container-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+/*.icon-list {
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -227,7 +237,7 @@ color: #404bbf;
     background: var(--CLOUD, #F4F4FD);
     width: 264px;
     height: 112px;
-}
+}*/
 
 .icon {
 }
