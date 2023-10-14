@@ -95,6 +95,8 @@ span {
     transition-duration: 300ms;
     transition-delay: ;
     transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    position: relative;
+    color: #404bbf;
 }
 
 .nav-link:hover,
@@ -211,6 +213,26 @@ color: #404bbf;
     overflow: hidden;
 }
 
+.icon-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 8px;
+}
+
+.features-icon-item{
+    block-size: boarder-box;
+    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+    border-radius: 4px;
+    background: var(--CLOUD, #F4F4FD);
+    width: 264px;
+    height: 112px;
+}
+
+.icon {
+}
+
+
 .features-list {
     display: flex;
     flex-wrap: nowrap;
@@ -246,6 +268,8 @@ color: #404bbf;
 /**=======================================*/
 
 /**================our-team================*/
+
+
 
 .our-team {
     background: #f4f4fd;
@@ -300,10 +324,17 @@ color: #404bbf;
     text-align: center;
 }
 
+
 .soc-list {
     display: flex;
     justify-content: center;
     gap: 24px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.soc-link-icon {
 }
 
 .soc-item {
