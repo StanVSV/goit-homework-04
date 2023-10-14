@@ -221,6 +221,9 @@ color: #404bbf;
     background-color: #f4f4fd;
     border-radius: 4px;
     margin-bottom: 8px;
+    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+    width: 264px;
+    height: 112px;
 }
 
 /*.icon-list {
@@ -238,9 +241,6 @@ color: #404bbf;
     width: 264px;
     height: 112px;
 }*/
-
-.icon {
-}
 
 
 .features-list {
