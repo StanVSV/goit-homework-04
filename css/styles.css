@@ -320,18 +320,13 @@ color: #404bbf;
 
 .team-list-icon {
     display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 24px;
 }
 
 .team-icon {
-    
 }
 
-
-/* {
-
+.container-team-icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -340,14 +335,8 @@ color: #404bbf;
     width: 40px;
     height: 40px;
 
+}
 
-
-    display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
-    align-items: flex-end;
-    gap: 24px;
-}*/
 
 /**=======================================*/
 
