@@ -90,7 +90,7 @@ span {
     
 }
 
-.nav-link::after {
+.line-studio::after {
     content: '';
     position: absolute;
     left: 0;
