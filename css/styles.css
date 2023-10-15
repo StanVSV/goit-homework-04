@@ -315,11 +315,23 @@ color: #404bbf;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
+}
+
+.team-list-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.team-icon {
+    
 }
 
 
+/* {
 
-.container-team-icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -327,19 +339,15 @@ color: #404bbf;
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    
-}
 
-.team-icon {
-    
-}
-.team-item-icon {
+
+
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
     align-items: flex-end;
     gap: 24px;
-}
+}*/
 
 /**=======================================*/
 
