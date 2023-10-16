@@ -84,11 +84,6 @@ span {
     padding: 24px 0;
 }
 
-.line-studio {
-    position: relative;
-    color: #404bbf;
-}
-
 .line-studio::after {
     content: '';
     position: absolute;
@@ -107,11 +102,13 @@ span {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #404bbf;
 }
 
 .nav-link:hover,
 .nav-link:focus {
     color: #404bbf;
+    position: relative;
 }
 
 /*.nav-link::after {
