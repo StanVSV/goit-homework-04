@@ -86,6 +86,7 @@ span {
 
 .nav-link {
     display: block;
+    position: relative; 
     color: #2e2f42;
     font-size: 16px;
     font-weight: 500;
