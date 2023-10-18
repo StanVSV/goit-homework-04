@@ -82,6 +82,7 @@ span {
     display: flex;
     gap: 40px;
     padding: 24px 0;
+    position: relative;
 }
 
 .nav-link {
@@ -91,6 +92,7 @@ span {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    position: relative;
 }
 
 .nav-link.current:hover,
@@ -98,7 +100,10 @@ span {
     color: #404bbf;
 }
 
-.current:hover::after {
+.current {
+}
+
+.current::after {
     content: '';
     width: 48px;
     height: 4px;
