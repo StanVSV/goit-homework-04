@@ -109,7 +109,7 @@ span {
     content: '';
     width: 48px;
     height: 4px;
-    position: relative;
+    position: absolute;
     bottom: -1px;
     background-color: #404bbf;
     border-radius: 2px;
