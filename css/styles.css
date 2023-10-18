@@ -110,7 +110,7 @@ span {
     width: 48px;
     height: 4px;
     position: relative;
-    bottom: -25px;
+    bottom: -1px;
     background-color: #404bbf;
     border-radius: 2px;
     display: block;
