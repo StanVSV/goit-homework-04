@@ -109,11 +109,11 @@ span {
     content: '';
     width: 48px;
     height: 4px;
-    position: absolute;
+    position: relative;
+    bottom: -25px;
     background-color: #404bbf;
     border-radius: 2px;
     display: block;
-    margin-top: 20px;
 }
 
 .address {
